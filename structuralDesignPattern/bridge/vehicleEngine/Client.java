@@ -10,5 +10,8 @@ public class Client {
         Engine electricEngine = new ElectricEngine();
         Vehicle bike2 = new Bike(electricEngine);
         bike2.manufactureVehicle();
+
+        Vehicle electricCar = new Car(electricEngine);
+        electricCar.manufactureVehicle();
     }
 }
