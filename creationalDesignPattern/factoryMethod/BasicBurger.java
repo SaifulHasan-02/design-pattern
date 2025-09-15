@@ -1,4 +1,4 @@
-package creationalDesignPattern.abstractMethod;
+package creationalDesignPattern.factoryMethod;
 
 public class BasicBurger implements Burger{
     @Override
